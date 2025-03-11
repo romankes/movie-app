@@ -1,0 +1,1 @@
+export { getInputColors } from './getInputColors';

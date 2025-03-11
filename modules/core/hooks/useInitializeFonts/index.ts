@@ -1,0 +1,1 @@
+export { useInitializeFonts } from './useInitializeFonts';

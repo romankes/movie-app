@@ -1,0 +1,64 @@
+{
+  "cli": {
+    "version": ">= 12.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "base": {
+      "android": {
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
+      }
+    },
+    "development-ios-simulator": {
+      "developmentClient": false,
+      "distribution": "store",
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "APP_ENV": "dev"
+      }
+    },
+    "staging": {
+      "extends": "base",
+      "env": {
+        "APP_ENV": "staging"
+      },
+      "ios": {
+        "distribution": "store",
+        "autoIncrement": true
+      },
+      "android": {
+        "distribution": "internal",
+        "autoIncrement": true
+      }
+    },
+    "production": {
+      "extends": "base",
+      "env": {
+        "APP_ENV": "production"
+      },
+      "ios": {
+        "autoIncrement": true
+      },
+      "android": {
+        "autoIncrement": true
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascAppId": ""
+      }
+    },
+    "staging": {
+      "ios": {
+        "ascAppId": ""
+      }
+    }
+  }
+}

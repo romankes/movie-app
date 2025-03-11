@@ -1,0 +1,49 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "strict": true,
+    "alwaysStrict": true,
+    "noUncheckedIndexedAccess": true,
+    "strictPropertyInitialization": false,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": false,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./*"],
+      "@config": ["./config/index.ts"],
+      "@core-store": ["./modules/core/store/index.ts"],
+      "@core-hooks": ["./modules/core/hooks/index.ts"],
+      "@components": ["./modules/common/components/index.ts"],
+      "@icons/*": ["./modules/common/icons/*"],
+      "@palette": ["./modules/core/theme/palette/index.ts"],
+      "@fonts": ["./modules/core/theme/fonts/index.ts"],
+      "@navigation/*": ["./modules/navigation/*"],
+      "@common/*": ["./modules/common/*"],
+      "@core/*": ["./modules/core/*"],
+      "@movie/*": ["./modules/movie/*"],
+      "@genre/*": ["./modules/genre/*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "app.config.ts"
+  ],
+  "exclude": ["./modules/core/types/api-types.ts"]
+}

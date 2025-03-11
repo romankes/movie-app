@@ -1,0 +1,7 @@
+{
+  "name": "movie_app",
+  "slug": "movie_app",
+  "ios": { "bundleIdentifier": "com.movie-app" },
+  "android": { "package": "com.movie_app" },
+  "extra": { "eas": { "projectId": "movie_app" } }
+}

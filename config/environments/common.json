@@ -1,0 +1,9 @@
+{
+  "version": "0.0.1",
+  "scheme": "movie_app",
+  "icon": "",
+  "orientation": "portrait",
+  "owner": "RomanHnylenkyi",
+  "splash": {},
+  "experiments": { "typedRoutes": true }
+}

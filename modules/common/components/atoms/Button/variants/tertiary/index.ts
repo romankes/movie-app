@@ -1,0 +1,1 @@
+export { tertiary } from './tertiary';

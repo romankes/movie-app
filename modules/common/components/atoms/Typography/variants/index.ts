@@ -1,0 +1,14 @@
+export { title32Medium } from './title32Medium';
+export { body16Light } from './body16Light';
+export { body16Medium } from './body16Medium';
+export { body14Regular } from './body14Regular';
+export { title24Regular } from './title24Regular';
+export { title24Medium } from './title24Medium';
+export { title20Medium } from './title20Medium';
+export { title20Regular } from './title20Regular';
+export { title20SemiBold } from './title20SemiBold';
+export { title24SemiBold } from './title24SemiBold';
+export { body18SemiBold } from './body18SemiBold';
+export { body16SemiBold } from './body16SemiBold';
+export { body12Regular } from './body12Regular';
+export { body14SemiBold } from './body14SemiBold';

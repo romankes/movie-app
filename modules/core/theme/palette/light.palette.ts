@@ -1,0 +1,38 @@
+export const lightPalette = {
+  colors: {
+    black: '#2C2C2C',
+    red: '#FF003D',
+    blue: '#1A7ACE',
+    yellow: '#FEA900',
+  },
+  system: {
+    danger: '#FF003D',
+    stroke: '#E4EDF5',
+    darkStroke: '#D5D5D5',
+    disabled: '#979797',
+    overlay: '#00000033',
+  },
+  background: {
+    primary: '#FAFAFA',
+    secondary: '#F5F5F5',
+    tertiary: '#F1F7FF',
+    bareAccent: '#3D93FB',
+    accent: '#1A7ACE',
+    dark: '#2C2C2C',
+    yellow: '#FEA900',
+    lightYellow: '#fee1b8',
+  },
+  text: {
+    primary: '#101010',
+    secondary: '#565656',
+    accent: '#1A7ACE',
+    grey: '#656565',
+    tertiary: '#808080',
+    hints: '#AAAAAA',
+    disabled: '#D5D5D5',
+    white: '#FAFAFA',
+    danger: '#FF003D',
+    yellow: '#FEA900',
+  },
+  gradient: {},
+};

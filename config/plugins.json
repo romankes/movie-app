@@ -1,0 +1,9 @@
+[
+    "expo-router",
+    [
+      "expo-font",
+      {
+        "fonts": ["./modules/core/theme/fonts/families/Poppins-Regular.ttf"]
+      }
+    ]
+  ]

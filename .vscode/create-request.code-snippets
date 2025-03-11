@@ -1,0 +1,14 @@
+{
+  "Create request": {
+    "prefix": "cr",
+    "body": [
+      "import { requestBuilder } from '@request-builder';",
+      "",
+      "export const $1 = requestBuilder<'$2', '$3'>({",
+      " url: '$2',",
+      " method: '$3',",
+      "});",
+    ],
+    "description": "Create request",
+  },
+}
