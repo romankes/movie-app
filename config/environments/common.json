@@ -1,9 +1,12 @@
 {
   "version": "0.0.1",
   "scheme": "movie_app",
-  "icon": "",
+  "icon": "./assets/app-icon.png",
   "orientation": "portrait",
   "owner": "RomanHnylenkyi",
-  "splash": {},
+  "splash": {
+    "image": "./assets/app-icon.png",
+    "backgroundColor": "#FFF"
+  },
   "experiments": { "typedRoutes": true }
 }
