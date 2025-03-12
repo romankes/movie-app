@@ -61,13 +61,6 @@ export const useStyles = ({
           flexDirection: 'row',
           alignItems: 'center',
         },
-        placeholder: {
-          position: 'absolute',
-          left: 6,
-          top: 12,
-
-          zIndex: 2,
-        },
       }),
     [background, border, borderRadius, font, size, text],
   );

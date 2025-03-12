@@ -57,10 +57,6 @@ export const Input = memo(
       [inputRef],
     );
 
-    const onPress = useCallback(() => {
-      ref.current?.focus();
-    }, []);
-
     const onFocus = useCallback(
       (e: NativeSyntheticEvent<TextInputFocusEventData>) => {
         setIsFocused(true);
@@ -79,17 +75,11 @@ export const Input = memo(
 
     return (
       <View style={[styles.wrapper, wrapperStyle]}>
-        <Pressable style={[styles.field]} onPress={onPress}>
+        <Pressable style={[styles.field]} onPress={ref.current?.focus}>
           {leftIcon}
           <View style={styles.inputWrapper}>
-            {!value && !!rest.placeholder && (
-              <Typography style={styles.placeholder} color="hints">
-                {rest.placeholder}
-              </Typography>
-            )}
             <TextInput
               {...rest}
-              placeholder=""
               readOnly={disabled}
               style={[styles.input, style]}
               ref={onSetRef}
